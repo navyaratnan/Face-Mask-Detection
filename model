@@ -1,4 +1,4 @@
-import tf
+import tensorflow as tf
 
 model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(100, (3, 3), activation='relu',
